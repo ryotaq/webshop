@@ -1,0 +1,48 @@
+﻿
+Setting environment for using XAMPP for Windows.
+81804@RYOTA c:\xampp
+# mysql -u root
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 8
+Server version: 10.4.24-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> create database metalshop;
+Query OK, 1 row affected (0.014 sec)
+
+MariaDB [(none)]> use metalshop;
+Database changed
+MariaDB [metalshop]> create table goods(
+    -> id int primary key AUTO_INCREMENT,
+    -> name CHAR(200) not null,
+    -> price int,
+    -> description char(500));
+ERROR 1074 (42000): Column length too big for column 'description' (max = 255); use BLOB or TEXT instead
+MariaDB [metalshop]> create table goods(
+    -> id int primary key AUTO_INCREMENT,
+    -> name char(200) not null,
+    -> price int,
+    -> description blob);
+Query OK, 0 rows affected (0.029 sec)
+
+MariaDB [metalshop]> show table goods;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'goods' at line 1
+MariaDB [metalshop]> show tables goods;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'goods' at line 1
+MariaDB [metalshop]> describe table goods;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'table goods' at line 1
+MariaDB [metalshop]> describe goods;
++-------------+-----------+------+-----+---------+----------------+
+| Field       | Type      | Null | Key | Default | Extra          |
++-------------+-----------+------+-----+---------+----------------+
+| id          | int(11)   | NO   | PRI | NULL    | auto_increment |
+| name        | char(200) | NO   |     | NULL    |                |
+| price       | int(11)   | YES  |     | NULL    |                |
+| description | blob      | YES  |     | NULL    |                |
++-------------+-----------+------+-----+---------+----------------+
+4 rows in set (0.028 sec)
+
+MariaDB [metalshop]>

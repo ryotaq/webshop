@@ -1,0 +1,293 @@
+.title{
+    width:100%;
+    height:100%;
+    background-color:gray;
+    background-size:cover;
+}
+
+.greet{
+    color:white;
+    padding-top:20px;
+}
+
+.title h1{
+    background-color:red;
+    width: 400px;
+    height:80px;
+    letter-spacing:8px;
+    font-size:43px;
+    margin:12px;
+    color:black;
+}
+
+.title marquee{
+    color:white;
+}
+
+.title hr{
+    width:100%;
+    color:black;
+}
+
+.title span{
+    color:pink;
+    font-size:large;
+}
+
+.title h2{
+    color:white;
+}
+
+.title img{
+    margin:12px;
+}
+
+.title_1{
+    margin:15px;
+    width:200px;
+    height:30px;
+    background-color:white;
+    border-radius:10px;
+}
+
+.sentaku{
+    height:200%;
+    width:100%;
+    background-color:gray;
+}
+
+.sentaku h1{
+    color:white;
+}
+.aisatu{
+    color:white;
+    font-size:12px;
+    width:100%;
+    height:110px;
+    background-color:rgb(0,100,0,0.8);
+    position:fixed;
+    top:0px;
+    z-index:10;
+}
+
+.goods{
+    height:240px;
+    width:840px;
+    background-color:white;
+    margin: 15px;
+}
+
+.img{
+    float:left;
+    padding:20px;
+}
+
+.intro{
+    font-size:12px;
+}
+
+.center_1{
+    width:100%;
+    height:100%;
+    background-image:url(img/fire.jpg);
+    background-size:cover;
+}
+
+.seiyaku{
+    background-color:gray;
+    width:60%;
+    height:400px;
+    align-items: center;
+    color:white;
+}
+.submit{
+    font-size:12px;
+    border-radius:10px;
+    background-color:white;
+    width:100px;
+}
+.nyuryoku{
+    margin:12px;
+}
+
+.kaiin_page{
+    color:white;
+}
+
+.kaiin_page_1{
+    color:red;
+}
+
+.title_login{
+    width:100%;
+    height:100%;
+    background-color:gray;
+}
+
+.title_login h1{
+    color:white;
+}
+.title_login marquee{
+    font-size:20px;
+}
+.sentaku_1_2{
+    background-color: gray;
+    width:45%;
+}
+.sentaku_1_2 h1{
+    color:white;
+}
+h4{
+    color:white
+}
+.center_1_2{
+    width:100%;
+    height:5000px;
+    background-image:url(img/fire.jpg); 
+    background-size:contain;
+}
+.title_1_2{
+    width:50%;
+    height:100%;
+    background-color: gray;
+    background-size:cover;
+}
+.title_1_2 h1{
+    color:white;
+}
+.title_backimage{
+    background-image: url(img/thunder.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+
+.mb_form{
+    width:100%;
+    height:100%;
+    background-color: gray;
+    background-size: cover;
+}
+.mb_form h1{
+    color:white;
+}
+.mb_form p{
+    color:white;
+}
+.post_msg{
+    width:100%;
+    height:100%;
+    background-color:gray;
+    background-size:cover;
+}
+.post_msg h1{
+    color:white;
+}
+.update_form{
+    width:100%;
+    height:100%;
+    background-color:gray;
+    background-size:cover;
+}
+.update_form h1{
+    color:white;
+}
+.update_form p{
+    color:white;
+}
+.title_1_2_3{
+    margin:20px;
+    width:100px;
+    height:30px;
+    background-color:white;
+    border-radius:10px;
+}
+.update{
+    width:100%;
+    height:100%;
+    background-color:gray;
+    background-size:cover;
+}
+.update p,h1{
+    color:white;
+}
+.withdrawal_form{
+    height:100%;
+    width:100%;
+    background-color:gray;
+    background-size:cover;
+}
+.withdrawal_form p{
+    color:white;
+}
+.entry_form_html{
+    width:100%;
+    height:100%;
+    background-color:gray;
+    background-size:cover;
+}
+.entry_php{
+   width:100%;
+   height:100%;
+   background-color:gray;
+   background-size:cover; 
+}
+.entry_php p,h1{
+    color:white;
+}
+.withdrawal_php{
+    width:100%;
+    height:100%;
+    background-color:gray;
+    background-size:cover;
+}
+.withdrawal_php h1,p{
+    color:white;
+}
+.confirm_php{
+    width:100%;
+    height:300%;
+    background-color:gray;
+    background-size:cover;
+}
+.sentaku_chu{
+    width:100%;
+    height:100px;
+    background-color:rgb(75, 1, 165,0.8);
+    position:fixed;
+    top:0px;
+    z-index:10;
+}
+.confirm_1{
+    margin:15px;
+    height:210px;
+    width:540px;
+}
+.confirm_img{
+    float:left;
+    padding:4px;
+}
+.nedan{
+    font-size:27px;
+    float:right;
+    color:white;
+}
+.confirm_form{
+    position:fixed;
+    top: 200px;
+    left:750px;
+}
+.goukei_kingaku{
+    position:fixed;
+    top:200px;
+    left:1100px;
+}
+.goukei_kingaku h2{
+    color:white;
+}
+.pay_php{
+    width:100%;
+    height:300%;
+    background-color:gray;
+    background-size:cover;
+    color:white;
+}
